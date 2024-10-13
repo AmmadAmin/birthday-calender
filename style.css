@@ -1,0 +1,47 @@
+.birthday_calender {
+  display: flex;
+  height: 30vh;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(93, 94, 88);
+  width: 30%;
+  margin: auto;
+  margin-top: 16%;
+  border-radius: 10px;
+}
+
+input {
+  width: 70%;
+  height: 25px;
+
+  border-radius: 6px;
+}
+
+button {
+  width: 10%;
+  height: 30px;
+  border-radius: 8px;
+  margin-left: 45%;
+  margin-top: 5%;
+  cursor: pointer;
+  background-color: #4a867c;
+  color: white;
+  border: none;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+.result {
+  margin-left: 40%;
+  margin-top: 3%;
+  width: 30%;
+  height: 20vh;
+  font-size: 18px;
+  color: black;
+}
+
+.birthdate-info {
+  margin-top: 10px;
+}
